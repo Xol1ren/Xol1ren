@@ -33,7 +33,7 @@
 
 - **[postgres-backup-operator](https://github.com/Xol1ren/postgres-backup-operator)**: Kubernetes operator for zero-disk streaming PostgreSQL backups to S3/MinIO, with bounded upload buffers, retention pruning and self-service restores via CRDs.
 - **[cloud-native-telemetry](https://github.com/Xol1ren/cloud-native-telemetry)**: zero-allocation Go agent that scrapes `/proc` and exports Prometheus metrics, plus a FastAPI/PostgreSQL/Redis control plane for incident triage.
-- **[syshud](https://github.com/Xol1ren/syshud)**: zero-allocation Linux terminal HUD (CPU, memory, GPU, disk) using `/proc`, `/sys`, direct syscalls and purego NVML bindings.
+- **[syshud](https://github.com/Xol1ren/syshud)**: Linux terminal HUD with zero-allocation procfs and disk parsers (CPU, memory, GPU, disk) using `/proc`, `/sys`, direct syscalls and purego NVML bindings.
 
 ---
 

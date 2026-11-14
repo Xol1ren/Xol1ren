@@ -36,7 +36,7 @@ Looking for a DevOps / SRE / Platform engineering internship.
 - **[postgres-backup-operator](https://github.com/Xol1ren/postgres-backup-operator)**: Kubernetes operator for zero-disk streaming PostgreSQL backups to S3/MinIO, with bounded upload buffers, retention pruning and self-service restores via CRDs.
 - **[cloud-native-telemetry](https://github.com/Xol1ren/cloud-native-telemetry)**: Go agent with zero-allocation /proc parsers that exports Prometheus metrics, plus a FastAPI/PostgreSQL/Redis control plane for incident triage.
 - **[syshud](https://github.com/Xol1ren/syshud)**: Linux terminal HUD with zero-allocation procfs and disk parsers (CPU, memory, GPU, disk) using `/proc`, `/sys`, direct syscalls and purego NVML bindings.
-- **[myos](https://github.com/Xol1ren/myos)**: Minimalist pure-Go Linux PID 1 userspace and initramfs featuring a custom shell, DHCP networking, terminal PTY, and a 60 FPS framebuffer desktop.
+- **[myos](https://github.com/Xol1ren/myos)**: Minimalist pure-Go (`CGO_ENABLED=0`) Linux distribution with PID 1 init/reaper, native DRM/KMS 60 FPS desktop, interactive PTY terminal, `epoll` input multiplexer, process-group job control, and hybrid BIOS/UEFI boot.
 
 ---
 

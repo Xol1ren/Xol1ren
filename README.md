@@ -27,7 +27,6 @@ Looking for a DevOps / SRE / Platform engineering internship.
 | **Observability** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) |
 | **Linux** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=flat-square&logo=fedora&logoColor=white) `/proc` · `/sys` · syscalls |
 
-**Learning next:** Grafana · MinIO · Helm · AWS · OpenTelemetry · systemd · eBPF
 
 ---
 
